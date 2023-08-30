@@ -9,8 +9,8 @@ const Form = () => {
   return (
     <form
       action={async (formData) => {
-        await postData(formData);
         formRef.current?.reset();
+        await postData(formData);
       }}
       ref={formRef}
       className="p-6 fixed bottom-0 left-0 w-full bg-white"
