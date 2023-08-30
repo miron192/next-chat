@@ -21,6 +21,7 @@ const Form = () => {
           name="message"
           placeholder="Type your message"
           className="flex-grow py-2 px-4 outline-none"
+          autoComplete="off"
         />
         <button
           type="submit"
